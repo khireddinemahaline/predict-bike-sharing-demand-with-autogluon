@@ -39,8 +39,8 @@ training the model with more than three algorithms" and emphasizing the investme
 
 TODO: Replace the image below with your own.
 
-![](img/plote the graph 1.png)
-
+![plote the graph 1](img/plote the graph 1.png)
+<img src='img/plote the graph 1.png'>
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 

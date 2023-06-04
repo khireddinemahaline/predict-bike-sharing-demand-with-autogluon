@@ -28,24 +28,25 @@ Answer:
 training the model with more than three algorithms" and emphasizing the investment of additional time in fine-tuning the hyperparameters.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
+|model|hpo1|hpo2|hpo3|score|
+|--|--|--|--|--|
+|initial|default_vals|default_vals|default_vals|1.87676|
+|add_features|default_vals|default_vals|default_vals|0.63233|
+|hpo|GBM: num_leaves: lower=20, upper=80|NN: dropout_prob: 0.1, 0.5|GBM: num_boost_round: 200|0.52967|
 
-	model	hpo1	hpo2	hpo3	score
-0	initial	default_vals	default_vals	default_vals	1.87676
-1	add_features	default_vals	default_vals	default_vals	0.63233
-2	hpo	GBM: num_leaves: lower=20, upper=80	NN: dropout_prob: 0.1, 0.5	GBM: num_boost_round: 200	0.52967
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-![model_train_score.png](img\plote the graph 1.png)
+![model_train_score.png](img\plote the graph 1.PNG)
 
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img\plote the graph 2.png)
+![model_test_score.png](img\plote the graph 2.PNG)
 
 
 Summary

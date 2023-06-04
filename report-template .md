@@ -45,7 +45,7 @@ TODO: Replace the image below with your own.
 
 TODO: Replace the image below with your own.
 
-<img src="img/plote the graph 2.PNG">
+<img src="img/plote the graph 2.png">
 
 
 Summary
